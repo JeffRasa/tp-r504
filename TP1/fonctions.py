@@ -27,7 +27,7 @@ def puissance(a, b):
 
 	# Cas général (exposant positif)
 	result = 1
-	for _ in range(b):
+	for i in range(b):
 		result *= a
 	return result
 
